@@ -9,7 +9,7 @@ print(img.shape)
 imgResize = cv2.resize(img,(400,500))
 print(imgResize.shape)
 
-#To crop
+#To crop height by width
 imgCropped = img[400:800,400:700]
 #cv2.imshow("Image",img)
 #cv2.imshow("Image Resize", imgResize)
